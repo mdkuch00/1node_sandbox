@@ -1,6 +1,6 @@
 {
 	"name": "fcc-learn-npm-package-json",
-	"author": "Michał Kucharek",
+	"author": "Michal Kucharek",
 	"version": "0.0.1",
 	"dependencies": {
 		"express": "^4.14.0"
