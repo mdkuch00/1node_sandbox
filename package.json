@@ -2,7 +2,7 @@
 	"name": "fcc-learn-npm-package-json",
 	"author": "Michal Kucharek",
 	"description": "Testing node",
-	"keywords": ["freecodecamp", "staling","time to sleep"],
+	"keywords": ["freecodecamp/example", "staling","time to sleep"],
 	"license": "MIT",
 	"version": "0.0.1",
 	"dependencies": {
