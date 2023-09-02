@@ -11,7 +11,7 @@ console.log("Hello World");
 
 app.get("/json", (req, res) => {
     res.json({
-        "message" : "hello json"
+        "message" : "Hello json"
     });
 });
 
