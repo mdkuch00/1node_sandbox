@@ -1,3 +1,4 @@
+require('dotenv').config();
 let express = require('express');
 let app = express();
 console.log("Hello World");
@@ -9,7 +10,7 @@ console.log("Hello World");
 // });
 // app.use("/public", express.static(__dirname + "/public"));
 
-app.get("/json", (req, res) => {
+app.get.process.env.MESSAGE_STLE("/json", (req, res) => {
     res.json({
         "message" : "Hello json"
     });
