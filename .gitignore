@@ -1,5 +1,0 @@
-.gitconfig
-.gitattributes
-node_modules/
-.env
-Dockerfile.dev
