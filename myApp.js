@@ -21,14 +21,22 @@ console.log("... Up & running");
 //     });}
 // });
 
-app.get("/json", (req, res, next) => {
-    var callerid = req.method + " " + req.path + " - " + req.ip;
-    console.log(callerid);
-    next()
+// app.get("/json", (req, res, next) => {
+//     var callerid = req.method + " " + req.path + " - " + req.ip;
+//     console.log(callerid);
+//     next()
+// })
+var current_time = new Date();
+var current_timec = new Date();
+console.log(current_timec)
+app.get("/now", (res,req,next) => {
+    
+    next();
+},  (req, res) => {
+    res.json({
+        time: current_time
+    });
 })
-
-
-
 
 
 
